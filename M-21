@@ -1,0 +1,8 @@
+Display the total amount of patients for each province. Order by descending.
+
+
+select p.province_name , count(patients.patient_id) as patient_count
+from patients inner join province_names as p
+on patients.province_id = p. province_id
+group by p.province_name
+order by count(patients.patient_id) desc;

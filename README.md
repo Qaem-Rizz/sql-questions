@@ -29,7 +29,7 @@ This repository uses a two-branch system to keep platform-specific work organize
 | 🔀 **`main`** | Primary branch containing LeetCode SQL solutions + select merged queries from practice sessions. | **LeetCode** + Selected Merges |
 | 🔀 **`sql-practice.com`** | Dedicated sandbox branch exclusively for platform practice. | **sql-practice.com** |
 
-> 📊 **Branch Status:** The `sql-practice.com` branch is currently ~39 commits behind the `main` branch, but active practice solutions continue to be uploaded there regularly.
+> 📊 **Branch Status:** The `sql-practice.com` branch is currently a few commits behind the `main` branch, but active practice solutions continue to be uploaded there regularly.
 
 ---
 

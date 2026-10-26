@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🗄️ SQL Practice & Learning Tracker
+# 🗄️ SQL Practice & Advanced Analytics Log
 
-**A hands-on log of my daily SQL journey, query solutions, and database problem-solving.**
+**A hands-on log of my SQL learning journey, advanced query solutions, and database problem-solving.**
 
 [![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
 [![GitHub Uploads](https://img.shields.io/badge/Workflow-Direct%20Web%20Upload-181717?style=for-the-badge&logo=github&logoColor=white)](#)
@@ -14,9 +14,9 @@
 
 ## 📌 Overview
 
-Welcome to my official SQL repository! Here I document my step-by-step progress as I solve database challenges and strengthen my query-writing logic. 
+Welcome to my official SQL repository! Here I document my step-by-step progress as I solve database challenges, write complex queries, and strengthen my query-writing logic using **MySQL**. 
 
-> 💡 **Workflow Note:** I practice queries directly on online platforms and upload my raw `.sql` code straight through GitHub's web interface. Clean, fast, and straight to the point without unnecessary clutter.
+> 💡 **Workflow Note:** I practice queries directly on online platforms and upload my raw `.sql` code straight through GitHub's web interface — clean, fast, and straight to the point without unnecessary clutter.
 
 ---
 
@@ -29,7 +29,7 @@ This repository uses a two-branch system to keep platform-specific work organize
 | 🔀 **`main`** | Primary branch containing LeetCode SQL solutions + select merged queries from practice sessions. | **LeetCode** + Selected Merges |
 | 🔀 **`sql-practice.com`** | Dedicated sandbox branch exclusively for platform practice. | **sql-practice.com** |
 
-> 📊 **Branch Status:** The `sql-practice.com` branch is currently behind the `main` branch, but active practice solutions continue to be uploaded there regularly.
+> 📊 **Branch Status:** The `sql-practice.com` branch is currently ~39 commits behind the `main` branch, but active practice solutions continue to be uploaded there regularly.
 
 ---
 
@@ -40,24 +40,12 @@ This repository uses a two-branch system to keep platform-specific work organize
 
 ---
 
-## 🧠 Core Concepts Practiced
+## 🧠 Technical Concepts & Skills Covered
 
-- **Basic Querying:** `SELECT`, `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`
-- **Data Aggregation:** `GROUP BY`, `HAVING`, `COUNT`, `SUM`, `AVG`, `MIN/MAX`
-- **Relational Operations:** `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
-- **Advanced Logic:** Subqueries, Nested Queries, Conditional Logic (`CASE WHEN`)
-
----
-
-## ⚙️ How I Manage This Repo
-
-* **Direct Web Uploads:** No local Git terminal pushes needed; code is directly updated on GitHub web.
-* **Clean Syntax:** Code files contain pure, production-ready SQL queries without extra comments.
-
----
-
-<div align="center">
-
-### ⭐ If you find this learning repository helpful or interesting, feel free to give it a star! ⭐
-
-</div>
+```text
+├── 🪟 Window Functions      📊 ROW_NUMBER(), RANK(), DENSE_RANK(), LEAD(), LAG(), Frame Clauses
+├── 🧩 Advanced Logic        🔗 Multi-table JOINs, Correlated Subqueries, CTEs, CASE WHEN
+├── 📈 Data Aggregation      ⚙️ GROUP BY, HAVING, COUNT(DISTINCT), Conditional SUM/AVG
+├── 🔤 String Manipulation   ✂️ CONCAT(), SUBSTRING(), REPLACE(), POSITION(), TRIM(), REGEXP
+├── 📅 Date & Time Functions ⏱️ DATEDIFF(), DATE_ADD(), DATE_SUB(), EXTRACT(), DATE_FORMAT()
+└── ⚡ Basics & CRUD         📁 SELECT, WHERE, ORDER BY, LIMIT, COALESCE(), NULLIF()
